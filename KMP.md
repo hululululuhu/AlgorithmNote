@@ -1,3 +1,5 @@
+### 代码
+```java
 class Solution {
     private int[] getNext(String p){
         int n = p.length();
@@ -29,3 +31,4 @@ class Solution {
         return j == p.length() ? i - p.length() : -1;
     }
 }
+```
